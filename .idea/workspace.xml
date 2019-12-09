@@ -28,16 +28,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="vrpkCEHv" />
   </component>
   <component name="ProjectId" id="1QXYTzUg36EgZRihsi4QyhcBkjQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -55,11 +61,34 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ZomSpider/StandaloneOps" />
       <recent name="$PROJECT_DIR$/ZomSpider/Utils" />
       <recent name="$PROJECT_DIR$/ZomSpider/SpecificSpider" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Reader">
+  <component name="RunManager" selected="Python.MongodbFeeder">
+    <configuration name="MongodbFeeder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZomSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZomSpider/StandaloneOps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZomSpider/StandaloneOps/MongodbFeeder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZomSpider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,9 +182,11 @@
       <item itemvalue="Python.items" />
       <item itemvalue="Python.pip3" />
       <item itemvalue="Python.pip3.7" />
+      <item itemvalue="Python.MongodbFeeder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MongodbFeeder" />
         <item itemvalue="Python.Reader" />
         <item itemvalue="Python.items" />
         <item itemvalue="Python.pip3" />
@@ -266,7 +297,7 @@
       <workItem from="1573190171997" duration="1512000" />
       <workItem from="1575852070822" duration="16000" />
       <workItem from="1575863889655" duration="3215000" />
-      <workItem from="1575867263337" duration="1108000" />
+      <workItem from="1575867263337" duration="1379000" />
     </task>
     <servers />
   </component>
@@ -310,35 +341,35 @@
     </state>
     <state x="673" y="240" key="FileChooserDialogImpl/0.23.1680.1027@0.23.1680.1027" timestamp="1570680386685" />
     <state x="1154" y="360" key="FileChooserDialogImpl/0.23.2880.1597@0.23.2880.1597" timestamp="1575864843455" />
-    <state width="2838" height="573" key="GridCell.Tab.0.bottom" timestamp="1575867183640">
+    <state width="2838" height="467" key="GridCell.Tab.0.bottom" timestamp="1575870087494">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141396" />
-    <state width="2838" height="573" key="GridCell.Tab.0.bottom/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183640" />
+    <state width="2838" height="467" key="GridCell.Tab.0.bottom/0.23.2880.1597@0.23.2880.1597" timestamp="1575870087494" />
     <state width="1638" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011697" />
     <state width="1638" height="357" key="GridCell.Tab.0.bottom/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.bottom/3360.2100" timestamp="1569469134753" />
-    <state width="2838" height="573" key="GridCell.Tab.0.center" timestamp="1575867183640">
+    <state width="2838" height="467" key="GridCell.Tab.0.center" timestamp="1575870087493">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141395" />
-    <state width="2838" height="573" key="GridCell.Tab.0.center/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183640" />
+    <state width="2838" height="467" key="GridCell.Tab.0.center/0.23.2880.1597@0.23.2880.1597" timestamp="1575870087493" />
     <state width="1638" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011695" />
     <state width="1638" height="357" key="GridCell.Tab.0.center/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.center/3360.2100" timestamp="1569469134753" />
-    <state width="2838" height="573" key="GridCell.Tab.0.left" timestamp="1575867183639">
+    <state width="2838" height="467" key="GridCell.Tab.0.left" timestamp="1575870087493">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141395" />
-    <state width="2838" height="573" key="GridCell.Tab.0.left/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183639" />
+    <state width="2838" height="467" key="GridCell.Tab.0.left/0.23.2880.1597@0.23.2880.1597" timestamp="1575870087493" />
     <state width="1638" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011694" />
     <state width="1638" height="357" key="GridCell.Tab.0.left/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.left/3360.2100" timestamp="1569469134753" />
-    <state width="2838" height="573" key="GridCell.Tab.0.right" timestamp="1575867183640">
+    <state width="2838" height="467" key="GridCell.Tab.0.right" timestamp="1575870087493">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141396" />
-    <state width="2838" height="573" key="GridCell.Tab.0.right/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183640" />
+    <state width="2838" height="467" key="GridCell.Tab.0.right/0.23.2880.1597@0.23.2880.1597" timestamp="1575870087493" />
     <state width="1638" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011696" />
     <state width="1638" height="357" key="GridCell.Tab.0.right/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.right/3360.2100" timestamp="1569469134753" />
@@ -379,6 +410,10 @@
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569907260373" />
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/1920.1080/3360.2100" timestamp="1569469134753" />
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/3360.2100" timestamp="1569469134753" />
+    <state x="1223" y="745" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575870123091">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="1223" y="745" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870123091" />
     <state x="510" y="220" width="660" height="633" key="find.popup" timestamp="1569469134753" />
     <state x="510" y="220" width="660" height="633" key="find.popup/1920.1080/3360.2100" timestamp="1569469134753" />
     <state x="505" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1569891852247">
@@ -403,6 +438,7 @@
     <SUITE FILE_PATH="coverage/ZomSpider$FoodSpider.coverage" NAME="FoodSpider Coverage Results" MODIFIED="1569457116452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/spiders" />
     <SUITE FILE_PATH="coverage/ZomSpider$pa.coverage" NAME="pa Coverage Results" MODIFIED="1568169402539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/spiders" />
     <SUITE FILE_PATH="coverage/ZomSpider$RestaurantParser.coverage" NAME="RestaurantParser Coverage Results" MODIFIED="1569457407854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/SpecificSpider" />
+    <SUITE FILE_PATH="coverage/ZomSpider$MongodbFeeder.coverage" NAME="MongodbFeeder Coverage Results" MODIFIED="1575870087485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/StandaloneOps" />
     <SUITE FILE_PATH="coverage/ZomSpider$FireFoxDriver.coverage" NAME="FireFoxDriver Coverage Results" MODIFIED="1569898114916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/Utils" />
   </component>
 </project>
