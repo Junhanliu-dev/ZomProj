@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f1529b5-2293-4c5f-b752-1acfa38e97d8" name="Default Changelist" comment="">
+    <list default="true" id="2f1529b5-2293-4c5f-b752-1acfa38e97d8" name="Default Changelist" comment="created class to implement connection with mongodb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZomSpider/StandaloneOps/MongodbFeeder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZomSpider/StandaloneOps/MongodbFeeder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_res 2.jl" beforeDir="false" afterPath="$PROJECT_DIR$/new_res.jl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant.jl" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant.jl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/_cffi_backend.cpython-37m-darwin 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/_cffi_backend.cpython-37m-darwin 2.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cryptography/hazmat/bindings/_padding.abi3 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cryptography/hazmat/bindings/_padding.abi3 2.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/selenium/webdriver/firefox/amd64/x_ignore_nofocus 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/selenium/webdriver/firefox/amd64/x_ignore_nofocus 2.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/selenium/webdriver/firefox/x86/x_ignore_nofocus 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/selenium/webdriver/firefox/x86/x_ignore_nofocus 2.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/twisted/test/raiser.cpython-37m-darwin 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/twisted/test/raiser.cpython-37m-darwin 2.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/zope/interface/_zope_interface_coptimizations.cpython-37m-darwin 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/zope/interface/_zope_interface_coptimizations.cpython-37m-darwin 2.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZomSpider/StandaloneOps/Reader.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="PyFindUsagesOptions">
     <option name="isSearchForTextOccurrences" value="true" />
@@ -309,7 +301,7 @@
       <workItem from="1575852070822" duration="16000" />
       <workItem from="1575863889655" duration="3215000" />
       <workItem from="1575867263337" duration="3378000" />
-      <workItem from="1575933477142" duration="221000" />
+      <workItem from="1575933477142" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="created class to implement connection with mongodb">
       <created>1575870155744</created>
@@ -332,11 +324,29 @@
       <option name="project" value="LOCAL" />
       <updated>1575870440462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created class to implement connection with mongodb">
+      <created>1575933886135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575933886135</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created class to implement connection with mongodb" />
@@ -378,10 +388,10 @@
     </state>
     <state x="1744" y="479" key="#pip3.7/0.23.2880.1597@0.23.2880.1597" timestamp="1572412483149" />
     <state x="1744" y="479" key="#pip3/0.23.2880.1597@0.23.2880.1597" timestamp="1572412497671" />
-    <state x="988" y="421" key="CommitChangelistDialog2" timestamp="1575870440366">
+    <state x="988" y="421" key="CommitChangelistDialog2" timestamp="1575934392583">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
-    <state x="988" y="421" key="CommitChangelistDialog2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870440366" />
+    <state x="988" y="421" key="CommitChangelistDialog2/0.23.2880.1597@0.23.2880.1597" timestamp="1575934392583" />
     <state x="1154" y="360" key="FileChooserDialogImpl" timestamp="1575864843455">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
@@ -441,17 +451,17 @@
     <state x="428" y="286" key="IDE.errors.dialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569905798531" />
     <state x="428" y="286" key="IDE.errors.dialog/1920.1080/3360.2100" timestamp="1569469134753" />
     <state x="428" y="286" key="IDE.errors.dialog/3360.2100" timestamp="1569469134753" />
-    <state x="1488" y="520" key="SettingsEditor" timestamp="1575864901737">
+    <state x="1488" y="520" key="SettingsEditor" timestamp="1575934181937">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state x="371" y="117" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1570680605121" />
-    <state x="1488" y="520" key="SettingsEditor/0.23.2880.1597@0.23.2880.1597" timestamp="1575864901737" />
+    <state x="1488" y="520" key="SettingsEditor/0.23.2880.1597@0.23.2880.1597" timestamp="1575934181937" />
     <state x="244" y="126" key="SettingsEditor/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569885345725" />
     <state x="244" y="126" key="SettingsEditor/1920.1080/3360.2100" timestamp="1569469134753" />
-    <state x="1040" y="550" key="Vcs.Push.Dialog.v2" timestamp="1575870448451">
+    <state x="1040" y="550" key="Vcs.Push.Dialog.v2" timestamp="1575934276347">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
-    <state x="1040" y="550" key="Vcs.Push.Dialog.v2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870448451" />
+    <state x="1040" y="550" key="Vcs.Push.Dialog.v2/0.23.2880.1597@0.23.2880.1597" timestamp="1575934276347" />
     <state x="684" y="410" key="com.intellij.ide.util.TipDialog" timestamp="1575933505500">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
