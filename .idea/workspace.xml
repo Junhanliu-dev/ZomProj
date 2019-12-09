@@ -358,10 +358,10 @@
     </state>
     <state x="1744" y="479" key="#pip3.7/0.23.2880.1597@0.23.2880.1597" timestamp="1572412483149" />
     <state x="1744" y="479" key="#pip3/0.23.2880.1597@0.23.2880.1597" timestamp="1572412497671" />
-    <state x="988" y="421" key="CommitChangelistDialog2" timestamp="1575870164515">
+    <state x="988" y="421" key="CommitChangelistDialog2" timestamp="1575870440366">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
-    <state x="988" y="421" key="CommitChangelistDialog2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870164515" />
+    <state x="988" y="421" key="CommitChangelistDialog2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870440366" />
     <state x="1154" y="360" key="FileChooserDialogImpl" timestamp="1575864843455">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
@@ -428,6 +428,10 @@
     <state x="1488" y="520" key="SettingsEditor/0.23.2880.1597@0.23.2880.1597" timestamp="1575864901737" />
     <state x="244" y="126" key="SettingsEditor/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569885345725" />
     <state x="244" y="126" key="SettingsEditor/1920.1080/3360.2100" timestamp="1569469134753" />
+    <state x="1040" y="550" key="Vcs.Push.Dialog.v2" timestamp="1575870448451">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="1040" y="550" key="Vcs.Push.Dialog.v2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870448451" />
     <state x="684" y="410" key="com.intellij.ide.util.TipDialog" timestamp="1575867263295">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
