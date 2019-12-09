@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f1529b5-2293-4c5f-b752-1acfa38e97d8" name="Default Changelist" comment="" />
+    <list default="true" id="2f1529b5-2293-4c5f-b752-1acfa38e97d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZomSpider/StandaloneOps/MongodbFeeder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZomSpider/StandaloneOps/MongodbFeeder.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -297,12 +300,31 @@
       <workItem from="1573190171997" duration="1512000" />
       <workItem from="1575852070822" duration="16000" />
       <workItem from="1575863889655" duration="3215000" />
-      <workItem from="1575867263337" duration="1379000" />
+      <workItem from="1575867263337" duration="1890000" />
     </task>
+    <task id="LOCAL-00001" summary="created class to implement connection with mongodb">
+      <created>1575870155744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575870155744</updated>
+    </task>
+    <task id="LOCAL-00002" summary="created class to implement connection with mongodb">
+      <created>1575870164616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575870164616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created class to implement connection with mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="created class to implement connection with mongodb" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="150" key="#UnitTest" timestamp="1570677217713">
@@ -336,44 +358,44 @@
     </state>
     <state x="1744" y="479" key="#pip3.7/0.23.2880.1597@0.23.2880.1597" timestamp="1572412483149" />
     <state x="1744" y="479" key="#pip3/0.23.2880.1597@0.23.2880.1597" timestamp="1572412497671" />
-    <state x="988" y="421" key="CommitChangelistDialog2" timestamp="1575870155595">
+    <state x="988" y="421" key="CommitChangelistDialog2" timestamp="1575870164515">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
-    <state x="988" y="421" key="CommitChangelistDialog2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870155595" />
+    <state x="988" y="421" key="CommitChangelistDialog2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870164515" />
     <state x="1154" y="360" key="FileChooserDialogImpl" timestamp="1575864843455">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state x="673" y="240" key="FileChooserDialogImpl/0.23.1680.1027@0.23.1680.1027" timestamp="1570680386685" />
     <state x="1154" y="360" key="FileChooserDialogImpl/0.23.2880.1597@0.23.2880.1597" timestamp="1575864843455" />
-    <state width="2838" height="467" key="GridCell.Tab.0.bottom" timestamp="1575870087494">
+    <state width="2838" height="467" key="GridCell.Tab.0.bottom" timestamp="1575870370382">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141396" />
-    <state width="2838" height="467" key="GridCell.Tab.0.bottom/0.23.2880.1597@0.23.2880.1597" timestamp="1575870087494" />
+    <state width="2838" height="467" key="GridCell.Tab.0.bottom/0.23.2880.1597@0.23.2880.1597" timestamp="1575870370382" />
     <state width="1638" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011697" />
     <state width="1638" height="357" key="GridCell.Tab.0.bottom/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.bottom/3360.2100" timestamp="1569469134753" />
-    <state width="2838" height="467" key="GridCell.Tab.0.center" timestamp="1575870087493">
+    <state width="2838" height="467" key="GridCell.Tab.0.center" timestamp="1575870370382">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141395" />
-    <state width="2838" height="467" key="GridCell.Tab.0.center/0.23.2880.1597@0.23.2880.1597" timestamp="1575870087493" />
+    <state width="2838" height="467" key="GridCell.Tab.0.center/0.23.2880.1597@0.23.2880.1597" timestamp="1575870370382" />
     <state width="1638" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011695" />
     <state width="1638" height="357" key="GridCell.Tab.0.center/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.center/3360.2100" timestamp="1569469134753" />
-    <state width="2838" height="467" key="GridCell.Tab.0.left" timestamp="1575870087493">
+    <state width="2838" height="467" key="GridCell.Tab.0.left" timestamp="1575870370381">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141395" />
-    <state width="2838" height="467" key="GridCell.Tab.0.left/0.23.2880.1597@0.23.2880.1597" timestamp="1575870087493" />
+    <state width="2838" height="467" key="GridCell.Tab.0.left/0.23.2880.1597@0.23.2880.1597" timestamp="1575870370381" />
     <state width="1638" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011694" />
     <state width="1638" height="357" key="GridCell.Tab.0.left/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.left/3360.2100" timestamp="1569469134753" />
-    <state width="2838" height="467" key="GridCell.Tab.0.right" timestamp="1575870087493">
+    <state width="2838" height="467" key="GridCell.Tab.0.right" timestamp="1575870370382">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141396" />
-    <state width="2838" height="467" key="GridCell.Tab.0.right/0.23.2880.1597@0.23.2880.1597" timestamp="1575870087493" />
+    <state width="2838" height="467" key="GridCell.Tab.0.right/0.23.2880.1597@0.23.2880.1597" timestamp="1575870370382" />
     <state width="1638" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011696" />
     <state width="1638" height="357" key="GridCell.Tab.0.right/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.right/3360.2100" timestamp="1569469134753" />
@@ -414,10 +436,10 @@
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569907260373" />
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/1920.1080/3360.2100" timestamp="1569469134753" />
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/3360.2100" timestamp="1569469134753" />
-    <state x="1223" y="745" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575870123091">
+    <state x="1223" y="745" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575870169643">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
-    <state x="1223" y="745" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870123091" />
+    <state x="1223" y="745" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870169643" />
     <state x="510" y="220" width="660" height="633" key="find.popup" timestamp="1569469134753" />
     <state x="510" y="220" width="660" height="633" key="find.popup/1920.1080/3360.2100" timestamp="1569469134753" />
     <state x="505" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1569891852247">
@@ -442,7 +464,7 @@
     <SUITE FILE_PATH="coverage/ZomSpider$FoodSpider.coverage" NAME="FoodSpider Coverage Results" MODIFIED="1569457116452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/spiders" />
     <SUITE FILE_PATH="coverage/ZomSpider$pa.coverage" NAME="pa Coverage Results" MODIFIED="1568169402539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/spiders" />
     <SUITE FILE_PATH="coverage/ZomSpider$RestaurantParser.coverage" NAME="RestaurantParser Coverage Results" MODIFIED="1569457407854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/SpecificSpider" />
-    <SUITE FILE_PATH="coverage/ZomSpider$MongodbFeeder.coverage" NAME="MongodbFeeder Coverage Results" MODIFIED="1575870087485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/StandaloneOps" />
+    <SUITE FILE_PATH="coverage/ZomSpider$MongodbFeeder.coverage" NAME="MongodbFeeder Coverage Results" MODIFIED="1575870370375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/StandaloneOps" />
     <SUITE FILE_PATH="coverage/ZomSpider$FireFoxDriver.coverage" NAME="FireFoxDriver Coverage Results" MODIFIED="1569898114916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/Utils" />
   </component>
 </project>
