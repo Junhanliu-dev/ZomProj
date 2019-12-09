@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f1529b5-2293-4c5f-b752-1acfa38e97d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vrpkCEHv" />
+  </component>
+  <component name="ProjectId" id="1QXYTzUg36EgZRihsi4QyhcBkjQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyFindUsagesOptions">
+    <option name="isSearchForTextOccurrences" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ZomSpider/Utils" />
+      <recent name="$PROJECT_DIR$/ZomSpider/SpecificSpider" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Reader">
+    <configuration name="Reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZomSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZomSpider/StandaloneOps/Reader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="items" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZomSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZomSpider" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZomSpider/items.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pip3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZomSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/bin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/bin/pip3" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pip3.7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZomSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/bin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/bin/pip3.7" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Reader" />
+      <item itemvalue="Python.items" />
+      <item itemvalue="Python.pip3" />
+      <item itemvalue="Python.pip3.7" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Reader" />
+        <item itemvalue="Python.items" />
+        <item itemvalue="Python.pip3" />
+        <item itemvalue="Python.pip3.7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f1529b5-2293-4c5f-b752-1acfa38e97d8" name="Default Changelist" comment="" />
+      <created>1567918420301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567918420301</updated>
+      <workItem from="1567918424419" duration="52000" />
+      <workItem from="1567918561191" duration="3472000" />
+      <workItem from="1568075573600" duration="776000" />
+      <workItem from="1568094441060" duration="3882000" />
+      <workItem from="1568167686832" duration="2712000" />
+      <workItem from="1568174585709" duration="509000" />
+      <workItem from="1568175717681" duration="216000" />
+      <workItem from="1568176254036" duration="285000" />
+      <workItem from="1568176927215" duration="570000" />
+      <workItem from="1568177747248" duration="54000" />
+      <workItem from="1568177924929" duration="4855000" />
+      <workItem from="1568261815299" duration="91000" />
+      <workItem from="1568267879250" duration="202000" />
+      <workItem from="1568268084419" duration="1427000" />
+      <workItem from="1568336927459" duration="34000" />
+      <workItem from="1568355583620" duration="163000" />
+      <workItem from="1568607508357" duration="15000" />
+      <workItem from="1568607540929" duration="6524000" />
+      <workItem from="1568616355195" duration="361000" />
+      <workItem from="1568617243874" duration="1505000" />
+      <workItem from="1568690912213" duration="22000" />
+      <workItem from="1568691836721" duration="335000" />
+      <workItem from="1568692196173" duration="11287000" />
+      <workItem from="1568771413402" duration="24000" />
+      <workItem from="1568775960751" duration="1033000" />
+      <workItem from="1568865629957" duration="5746000" />
+      <workItem from="1568872604860" duration="4120000" />
+      <workItem from="1568956532810" duration="5460000" />
+      <workItem from="1568970009456" duration="317000" />
+      <workItem from="1569215617818" duration="81000" />
+      <workItem from="1569215721392" duration="5806000" />
+      <workItem from="1569296062149" duration="8944000" />
+      <workItem from="1569375670618" duration="228000" />
+      <workItem from="1569382504329" duration="16263000" />
+      <workItem from="1569453938850" duration="518000" />
+      <workItem from="1569454783254" duration="701000" />
+      <workItem from="1569455692464" duration="7906000" />
+      <workItem from="1569463620102" duration="5050000" />
+      <workItem from="1569469136567" duration="14918000" />
+      <workItem from="1569815594847" duration="5486000" />
+      <workItem from="1569823742551" duration="3644000" />
+      <workItem from="1569830581963" duration="1741000" />
+      <workItem from="1569834160913" duration="652000" />
+      <workItem from="1569834832526" duration="147000" />
+      <workItem from="1569834984265" duration="3524000" />
+      <workItem from="1569884906024" duration="655000" />
+      <workItem from="1569887052456" duration="98000" />
+      <workItem from="1569887183350" duration="18047000" />
+      <workItem from="1569905390541" duration="1498000" />
+      <workItem from="1569906893410" duration="66000" />
+      <workItem from="1569907139027" duration="96000" />
+      <workItem from="1569907259675" duration="1970000" />
+      <workItem from="1569909371399" duration="5554000" />
+      <workItem from="1569972152301" duration="25000" />
+      <workItem from="1569974114547" duration="187000" />
+      <workItem from="1569996254181" duration="34671000" />
+      <workItem from="1570149692795" duration="1255000" />
+      <workItem from="1570156947143" duration="706000" />
+      <workItem from="1570160335584" duration="3022000" />
+      <workItem from="1570167646314" duration="1000" />
+      <workItem from="1570167657996" duration="1300000" />
+      <workItem from="1570256152204" duration="545000" />
+      <workItem from="1570257163599" duration="1609000" />
+      <workItem from="1570261698838" duration="4000" />
+      <workItem from="1570677154781" duration="238000" />
+      <workItem from="1570679929541" duration="209000" />
+      <workItem from="1570680301135" duration="343000" />
+      <workItem from="1570680683945" duration="392000" />
+      <workItem from="1571194834827" duration="91000" />
+      <workItem from="1572066714886" duration="770000" />
+      <workItem from="1572411849289" duration="255000" />
+      <workItem from="1572412123561" duration="301000" />
+      <workItem from="1572412428864" duration="75000" />
+      <workItem from="1572412505838" duration="74000" />
+      <workItem from="1572412595323" duration="396000" />
+      <workItem from="1572413019261" duration="228000" />
+      <workItem from="1573081963899" duration="132000" />
+      <workItem from="1573082863628" duration="95000" />
+      <workItem from="1573190171997" duration="1512000" />
+      <workItem from="1575852070822" duration="16000" />
+      <workItem from="1575863889655" duration="3215000" />
+      <workItem from="1575867263337" duration="1108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="150" key="#UnitTest" timestamp="1570677217713">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="533" y="150" key="#UnitTest/0.23.1680.1027@0.23.1680.1027" timestamp="1570677217713" />
+    <state x="521" y="295" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575864616075">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1570679956138" />
+    <state x="521" y="295" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2880.1597@0.23.2880.1597" timestamp="1575864616075" />
+    <state x="962" y="525" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575864498372">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="561" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1570681049216" />
+    <state x="962" y="525" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2880.1597@0.23.2880.1597" timestamp="1575864498372" />
+    <state x="561" y="346" key="#com.intellij.fileTypes.FileTypeChooser/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569905850046" />
+    <state x="1177" y="575" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575867040381">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="1177" y="575" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2880.1597@0.23.2880.1597" timestamp="1575867040381" />
+    <state x="1744" y="479" key="#items" timestamp="1572412065728">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="1744" y="479" key="#items/0.23.2880.1597@0.23.2880.1597" timestamp="1572412065728" />
+    <state x="1744" y="479" key="#pip3" timestamp="1572412497671">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="1744" y="479" key="#pip3.7" timestamp="1572412483149">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="1744" y="479" key="#pip3.7/0.23.2880.1597@0.23.2880.1597" timestamp="1572412483149" />
+    <state x="1744" y="479" key="#pip3/0.23.2880.1597@0.23.2880.1597" timestamp="1572412497671" />
+    <state x="1154" y="360" key="FileChooserDialogImpl" timestamp="1575864843455">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="673" y="240" key="FileChooserDialogImpl/0.23.1680.1027@0.23.1680.1027" timestamp="1570680386685" />
+    <state x="1154" y="360" key="FileChooserDialogImpl/0.23.2880.1597@0.23.2880.1597" timestamp="1575864843455" />
+    <state width="2838" height="573" key="GridCell.Tab.0.bottom" timestamp="1575867183640">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state width="1358" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141396" />
+    <state width="2838" height="573" key="GridCell.Tab.0.bottom/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183640" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011697" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/1920.1080/3360.2100" timestamp="1569469134753" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/3360.2100" timestamp="1569469134753" />
+    <state width="2838" height="573" key="GridCell.Tab.0.center" timestamp="1575867183640">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state width="1358" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141395" />
+    <state width="2838" height="573" key="GridCell.Tab.0.center/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183640" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011695" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/1920.1080/3360.2100" timestamp="1569469134753" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/3360.2100" timestamp="1569469134753" />
+    <state width="2838" height="573" key="GridCell.Tab.0.left" timestamp="1575867183639">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state width="1358" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141395" />
+    <state width="2838" height="573" key="GridCell.Tab.0.left/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183639" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011694" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/1920.1080/3360.2100" timestamp="1569469134753" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/3360.2100" timestamp="1569469134753" />
+    <state width="2838" height="573" key="GridCell.Tab.0.right" timestamp="1575867183640">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state width="1358" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141396" />
+    <state width="2838" height="573" key="GridCell.Tab.0.right/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183640" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011696" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/1920.1080/3360.2100" timestamp="1569469134753" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/3360.2100" timestamp="1569469134753" />
+    <state width="2838" height="573" key="GridCell.Tab.1.bottom" timestamp="1575867183641">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state width="2838" height="573" key="GridCell.Tab.1.bottom/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183641" />
+    <state width="2838" height="573" key="GridCell.Tab.1.center" timestamp="1575867183640">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state width="2838" height="573" key="GridCell.Tab.1.center/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183640" />
+    <state width="2838" height="573" key="GridCell.Tab.1.left" timestamp="1575867183640">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state width="2838" height="573" key="GridCell.Tab.1.left/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183640" />
+    <state width="2838" height="573" key="GridCell.Tab.1.right" timestamp="1575867183640">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state width="2838" height="573" key="GridCell.Tab.1.right/0.23.2880.1597@0.23.2880.1597" timestamp="1575867183640" />
+    <state x="428" y="286" key="IDE.errors.dialog" timestamp="1569905798531">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="428" y="286" key="IDE.errors.dialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569905798531" />
+    <state x="428" y="286" key="IDE.errors.dialog/1920.1080/3360.2100" timestamp="1569469134753" />
+    <state x="428" y="286" key="IDE.errors.dialog/3360.2100" timestamp="1569469134753" />
+    <state x="1488" y="520" key="SettingsEditor" timestamp="1575864901737">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="371" y="117" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1570680605121" />
+    <state x="1488" y="520" key="SettingsEditor/0.23.2880.1597@0.23.2880.1597" timestamp="1575864901737" />
+    <state x="244" y="126" key="SettingsEditor/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569885345725" />
+    <state x="244" y="126" key="SettingsEditor/1920.1080/3360.2100" timestamp="1569469134753" />
+    <state x="684" y="410" key="com.intellij.ide.util.TipDialog" timestamp="1575867263295">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1572066715991" />
+    <state x="684" y="410" key="com.intellij.ide.util.TipDialog/0.23.2880.1597@0.23.2880.1597" timestamp="1575867263295" />
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569907260373" />
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog/1920.1080/3360.2100" timestamp="1569469134753" />
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog/3360.2100" timestamp="1569469134753" />
+    <state x="510" y="220" width="660" height="633" key="find.popup" timestamp="1569469134753" />
+    <state x="510" y="220" width="660" height="633" key="find.popup/1920.1080/3360.2100" timestamp="1569469134753" />
+    <state x="505" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1569891852247">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="249" width="670" height="676" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569891852247" />
+    <state x="505" y="249" width="670" height="676" key="search.everywhere.popup/1920.1080/3360.2100" timestamp="1569469134753" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ZomSpider$pip3.coverage" NAME="pip3 Coverage Results" MODIFIED="1572413087662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/bin" />
+    <SUITE FILE_PATH="coverage/ZomSpider$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1569456367842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider" />
+    <SUITE FILE_PATH="coverage/ZomSpider$Reader.coverage" NAME="Reader Coverage Results" MODIFIED="1575867078255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZomSpider$SeleniumDriverSpider.coverage" NAME="SeleniumDriverSpider Coverage Results" MODIFIED="1568693639675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/SpecificSpider" />
+    <SUITE FILE_PATH="coverage/ZomSpider$UnitTest.coverage" NAME="UnitTest Coverage Results" MODIFIED="1570068763363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/Utils" />
+    <SUITE FILE_PATH="coverage/ZomSpider$Experience.coverage" NAME="Experience Coverage Results" MODIFIED="1568693925266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZomSpider$SoupTester.coverage" NAME="SoupTester Coverage Results" MODIFIED="1569499712376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider" />
+    <SUITE FILE_PATH="coverage/ZomSpider$Test.coverage" NAME="Test Coverage Results" MODIFIED="1569408725721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider" />
+    <SUITE FILE_PATH="coverage/ZomSpider$items.coverage" NAME="items Coverage Results" MODIFIED="1572413099318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider" />
+    <SUITE FILE_PATH="coverage/ZomSpider$MongoConnection.coverage" NAME="MongoConnection Coverage Results" MODIFIED="1569819738621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/Utils" />
+    <SUITE FILE_PATH="coverage/ZomSpider$robotParser.coverage" NAME="robotParser Coverage Results" MODIFIED="1568095202489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/utils" />
+    <SUITE FILE_PATH="coverage/ZomSpider$BloomFilter.coverage" NAME="BloomFilter Coverage Results" MODIFIED="1568958236150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/Utils" />
+    <SUITE FILE_PATH="coverage/ZomSpider$FoodSpider.coverage" NAME="FoodSpider Coverage Results" MODIFIED="1569457116452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/spiders" />
+    <SUITE FILE_PATH="coverage/ZomSpider$pa.coverage" NAME="pa Coverage Results" MODIFIED="1568169402539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/spiders" />
+    <SUITE FILE_PATH="coverage/ZomSpider$RestaurantParser.coverage" NAME="RestaurantParser Coverage Results" MODIFIED="1569457407854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/SpecificSpider" />
+    <SUITE FILE_PATH="coverage/ZomSpider$FireFoxDriver.coverage" NAME="FireFoxDriver Coverage Results" MODIFIED="1569898114916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/Utils" />
+  </component>
+</project>
