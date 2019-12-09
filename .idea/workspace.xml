@@ -4,6 +4,14 @@
     <list default="true" id="2f1529b5-2293-4c5f-b752-1acfa38e97d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZomSpider/StandaloneOps/MongodbFeeder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZomSpider/StandaloneOps/MongodbFeeder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_res 2.jl" beforeDir="false" afterPath="$PROJECT_DIR$/new_res.jl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant.jl" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant.jl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/_cffi_backend.cpython-37m-darwin 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/_cffi_backend.cpython-37m-darwin 2.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cryptography/hazmat/bindings/_padding.abi3 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cryptography/hazmat/bindings/_padding.abi3 2.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/selenium/webdriver/firefox/amd64/x_ignore_nofocus 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/selenium/webdriver/firefox/amd64/x_ignore_nofocus 2.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/selenium/webdriver/firefox/x86/x_ignore_nofocus 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/selenium/webdriver/firefox/x86/x_ignore_nofocus 2.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/twisted/test/raiser.cpython-37m-darwin 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/twisted/test/raiser.cpython-37m-darwin 2.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/zope/interface/_zope_interface_coptimizations.cpython-37m-darwin 2.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/zope/interface/_zope_interface_coptimizations.cpython-37m-darwin 2.so" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +308,8 @@
       <workItem from="1573190171997" duration="1512000" />
       <workItem from="1575852070822" duration="16000" />
       <workItem from="1575863889655" duration="3215000" />
-      <workItem from="1575867263337" duration="1890000" />
+      <workItem from="1575867263337" duration="3378000" />
+      <workItem from="1575933477142" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="created class to implement connection with mongodb">
       <created>1575870155744</created>
@@ -316,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575870164616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created class to implement connection with mongodb">
+      <created>1575870440462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575870440462</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,10 +358,14 @@
     <state x="561" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1570681049216" />
     <state x="962" y="525" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2880.1597@0.23.2880.1597" timestamp="1575864498372" />
     <state x="561" y="346" key="#com.intellij.fileTypes.FileTypeChooser/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569905850046" />
-    <state x="1177" y="575" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575867040381">
+    <state x="1074" y="503" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575870941072">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
-    <state x="1177" y="575" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2880.1597@0.23.2880.1597" timestamp="1575867040381" />
+    <state x="1074" y="503" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.2880.1597@0.23.2880.1597" timestamp="1575870941072" />
+    <state x="1177" y="575" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575871181259">
+      <screen x="0" y="23" width="2880" height="1597" />
+    </state>
+    <state x="1177" y="575" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2880.1597@0.23.2880.1597" timestamp="1575871181259" />
     <state x="1744" y="479" key="#items" timestamp="1572412065728">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
@@ -367,35 +387,35 @@
     </state>
     <state x="673" y="240" key="FileChooserDialogImpl/0.23.1680.1027@0.23.1680.1027" timestamp="1570680386685" />
     <state x="1154" y="360" key="FileChooserDialogImpl/0.23.2880.1597@0.23.2880.1597" timestamp="1575864843455" />
-    <state width="2838" height="467" key="GridCell.Tab.0.bottom" timestamp="1575870370382">
+    <state width="2838" height="467" key="GridCell.Tab.0.bottom" timestamp="1575871927606">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141396" />
-    <state width="2838" height="467" key="GridCell.Tab.0.bottom/0.23.2880.1597@0.23.2880.1597" timestamp="1575870370382" />
+    <state width="2838" height="467" key="GridCell.Tab.0.bottom/0.23.2880.1597@0.23.2880.1597" timestamp="1575871927606" />
     <state width="1638" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011697" />
     <state width="1638" height="357" key="GridCell.Tab.0.bottom/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.bottom/3360.2100" timestamp="1569469134753" />
-    <state width="2838" height="467" key="GridCell.Tab.0.center" timestamp="1575870370382">
+    <state width="2838" height="467" key="GridCell.Tab.0.center" timestamp="1575871927605">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141395" />
-    <state width="2838" height="467" key="GridCell.Tab.0.center/0.23.2880.1597@0.23.2880.1597" timestamp="1575870370382" />
+    <state width="2838" height="467" key="GridCell.Tab.0.center/0.23.2880.1597@0.23.2880.1597" timestamp="1575871927605" />
     <state width="1638" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011695" />
     <state width="1638" height="357" key="GridCell.Tab.0.center/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.center/3360.2100" timestamp="1569469134753" />
-    <state width="2838" height="467" key="GridCell.Tab.0.left" timestamp="1575870370381">
+    <state width="2838" height="467" key="GridCell.Tab.0.left" timestamp="1575871927605">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141395" />
-    <state width="2838" height="467" key="GridCell.Tab.0.left/0.23.2880.1597@0.23.2880.1597" timestamp="1575870370381" />
+    <state width="2838" height="467" key="GridCell.Tab.0.left/0.23.2880.1597@0.23.2880.1597" timestamp="1575871927605" />
     <state width="1638" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011694" />
     <state width="1638" height="357" key="GridCell.Tab.0.left/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.left/3360.2100" timestamp="1569469134753" />
-    <state width="2838" height="467" key="GridCell.Tab.0.right" timestamp="1575870370382">
+    <state width="2838" height="467" key="GridCell.Tab.0.right" timestamp="1575871927605">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1570680141396" />
-    <state width="2838" height="467" key="GridCell.Tab.0.right/0.23.2880.1597@0.23.2880.1597" timestamp="1575870370382" />
+    <state width="2838" height="467" key="GridCell.Tab.0.right/0.23.2880.1597@0.23.2880.1597" timestamp="1575871927605" />
     <state width="1638" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1570069011696" />
     <state width="1638" height="357" key="GridCell.Tab.0.right/1920.1080/3360.2100" timestamp="1569469134753" />
     <state width="1638" height="357" key="GridCell.Tab.0.right/3360.2100" timestamp="1569469134753" />
@@ -432,11 +452,11 @@
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state x="1040" y="550" key="Vcs.Push.Dialog.v2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870448451" />
-    <state x="684" y="410" key="com.intellij.ide.util.TipDialog" timestamp="1575867263295">
+    <state x="684" y="410" key="com.intellij.ide.util.TipDialog" timestamp="1575933505500">
       <screen x="0" y="23" width="2880" height="1597" />
     </state>
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1572066715991" />
-    <state x="684" y="410" key="com.intellij.ide.util.TipDialog/0.23.2880.1597@0.23.2880.1597" timestamp="1575867263295" />
+    <state x="684" y="410" key="com.intellij.ide.util.TipDialog/0.23.2880.1597@0.23.2880.1597" timestamp="1575933505500" />
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569907260373" />
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/1920.1080/3360.2100" timestamp="1569469134753" />
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/3360.2100" timestamp="1569469134753" />
@@ -446,16 +466,17 @@
     <state x="1223" y="745" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2880.1597@0.23.2880.1597" timestamp="1575870169643" />
     <state x="510" y="220" width="660" height="633" key="find.popup" timestamp="1569469134753" />
     <state x="510" y="220" width="660" height="633" key="find.popup/1920.1080/3360.2100" timestamp="1569469134753" />
-    <state x="505" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1569891852247">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="866" y="374" width="1149" height="1052" key="search.everywhere.popup" timestamp="1575871377653">
+      <screen x="0" y="23" width="2880" height="1597" />
     </state>
+    <state x="866" y="374" width="1149" height="1052" key="search.everywhere.popup/0.23.2880.1597@0.23.2880.1597" timestamp="1575871377653" />
     <state x="505" y="249" width="670" height="676" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1569891852247" />
     <state x="505" y="249" width="670" height="676" key="search.everywhere.popup/1920.1080/3360.2100" timestamp="1569469134753" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ZomSpider$pip3.coverage" NAME="pip3 Coverage Results" MODIFIED="1572413087662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/bin" />
     <SUITE FILE_PATH="coverage/ZomSpider$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1569456367842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider" />
-    <SUITE FILE_PATH="coverage/ZomSpider$Reader.coverage" NAME="Reader Coverage Results" MODIFIED="1575867078255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZomSpider$Reader.coverage" NAME="Reader Coverage Results" MODIFIED="1575871108520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ZomSpider$SeleniumDriverSpider.coverage" NAME="SeleniumDriverSpider Coverage Results" MODIFIED="1568693639675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/SpecificSpider" />
     <SUITE FILE_PATH="coverage/ZomSpider$UnitTest.coverage" NAME="UnitTest Coverage Results" MODIFIED="1570068763363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/Utils" />
     <SUITE FILE_PATH="coverage/ZomSpider$Experience.coverage" NAME="Experience Coverage Results" MODIFIED="1568693925266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -468,7 +489,7 @@
     <SUITE FILE_PATH="coverage/ZomSpider$FoodSpider.coverage" NAME="FoodSpider Coverage Results" MODIFIED="1569457116452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/spiders" />
     <SUITE FILE_PATH="coverage/ZomSpider$pa.coverage" NAME="pa Coverage Results" MODIFIED="1568169402539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/spiders" />
     <SUITE FILE_PATH="coverage/ZomSpider$RestaurantParser.coverage" NAME="RestaurantParser Coverage Results" MODIFIED="1569457407854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/SpecificSpider" />
-    <SUITE FILE_PATH="coverage/ZomSpider$MongodbFeeder.coverage" NAME="MongodbFeeder Coverage Results" MODIFIED="1575870370375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/StandaloneOps" />
+    <SUITE FILE_PATH="coverage/ZomSpider$MongodbFeeder.coverage" NAME="MongodbFeeder Coverage Results" MODIFIED="1575871851043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/StandaloneOps" />
     <SUITE FILE_PATH="coverage/ZomSpider$FireFoxDriver.coverage" NAME="FireFoxDriver Coverage Results" MODIFIED="1569898114916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ZomSpider/Utils" />
   </component>
 </project>
