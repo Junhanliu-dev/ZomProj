@@ -35,6 +35,7 @@ namespace ZomAPIs
                         = Configuration.GetSection("MongoConnection:Database").Value;
                 }
                 );
+            services.AddTransient<IRestaurantRepository, RestaurantRepository>();
 
         }
 

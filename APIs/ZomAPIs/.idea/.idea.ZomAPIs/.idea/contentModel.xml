@@ -7,9 +7,14 @@
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Controllers" t="Include" />
+      <e p="Controllers" t="Include">
+        <e p="RestaurantController.cs" t="Include" />
+      </e>
       <e p="global.json" t="Include" />
       <e p="Model" t="Include">
+        <e p="IRestaurantRepository.cs" t="Include" />
+        <e p="Restaurant.cs" t="Include" />
+        <e p="RestaurantRepository.cs" t="Include" />
         <e p="Settings.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -23,9 +28,6 @@
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
-      </e>
-      <e p="Services" t="Include">
-        <e p="MongoServer.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
       <e p="WeatherForecast.cs" t="Include" />
