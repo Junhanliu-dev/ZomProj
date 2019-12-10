@@ -7,10 +7,11 @@
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Controllers" t="Include">
-        <e p="WeatherForecastController.cs" t="Include" />
-      </e>
+      <e p="Controllers" t="Include" />
       <e p="global.json" t="Include" />
+      <e p="Model" t="Include">
+        <e p="Settings.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">
@@ -22,6 +23,9 @@
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="MongoServer.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
       <e p="WeatherForecast.cs" t="Include" />
