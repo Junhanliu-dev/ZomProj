@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.ComTypes;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
@@ -27,15 +28,31 @@ namespace ZomAPIs.Model
                 throw e;
             }
         }
-
-        public Task<Restaurant> GetRestaurant(string id)
+        
+        public async Task<IEnumerable<Restaurant>> GetByRating(double rating)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                return await _context.Restaurants.Find(res => res.Rating >= rating).ToListAsync();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw e;
+            }
         }
 
-        public Task<Restaurant> GetRestaurantByName(string name)
+        public async Task<Restaurant> GetById(long id)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                return await _context.Restaurants.Find(res => res.Id == id).FirstOrDefaultAsync();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw e;
+            }
         }
     }
 }

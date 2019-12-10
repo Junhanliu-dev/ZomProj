@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -8,10 +9,8 @@ namespace ZomAPIs.Model
     {
         Task<IEnumerable<Restaurant>> GetAllRestaurants();
 
-        Task<Restaurant> GetRestaurant(string id);
+        Task<IEnumerable<Restaurant>> GetByRating(double rating);
 
-        Task<Restaurant> GetRestaurantByName(string name);
-
-
+        Task<Restaurant> GetById(Int64 id);
     }
 }

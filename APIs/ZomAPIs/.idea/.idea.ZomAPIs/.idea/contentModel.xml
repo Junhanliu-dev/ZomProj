@@ -8,7 +8,7 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
-        <e p="RestaurantController.cs" t="Include" />
+        <e p="RestaurantsController.cs" t="Include" />
       </e>
       <e p="global.json" t="Include" />
       <e p="Model" t="Include">
@@ -30,7 +30,6 @@
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
-      <e p="WeatherForecast.cs" t="Include" />
       <e p="ZomAPIs.csproj" t="IncludeRecursive" />
       <e p="ZomAPIs.sln" t="IncludeFlat" />
     </e>
