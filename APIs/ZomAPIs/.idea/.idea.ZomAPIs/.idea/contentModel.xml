@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_ZomAPIs.-620976091.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_ZomAPIs.-620976091.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="RestaurantsController.cs" t="Include" />
+        <e p="UserController.cs" t="Include" />
       </e>
       <e p="global.json" t="Include" />
       <e p="Model" t="Include">
-        <e p="IRestaurantRepository.cs" t="Include" />
+        <e p="Data" t="Include">
+          <e p="UserContext.cs" t="Include" />
+        </e>
+        <e p="Mongo" t="Include">
+          <e p="IRestaurantRepository.cs" t="Include" />
+          <e p="RestaurantRepository.cs" t="Include" />
+        </e>
+        <e p="MySql" t="Include">
+          <e p="RestaurantInfo.cs" t="Include" />
+          <e p="Role.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserRestaurant.cs" t="Include" />
+        </e>
         <e p="Restaurant.cs" t="Include" />
-        <e p="RestaurantRepository.cs" t="Include" />
         <e p="Settings.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
