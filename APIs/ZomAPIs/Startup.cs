@@ -29,6 +29,7 @@ namespace ZomAPIs
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<UserDbContext>(options => options.UseMySql(@"server=192.168.86.150;userid=root;pwd=Seawave@007;port=3306;database=ZomUser"));
             services.Configure<Settings>(options =>
                 {
                     options.ConnectionString
@@ -41,12 +42,13 @@ namespace ZomAPIs
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserDbContext contexts)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+            contexts.Database.EnsureCreated();
             app.UseHttpsRedirection();
             app.UseRouting();
 
