@@ -9,22 +9,13 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="RestaurantsController.cs" t="Include" />
-        <e p="UserController.cs" t="Include" />
       </e>
       <e p="global.json" t="Include" />
       <e p="Model" t="Include">
-        <e p="Data" t="Include">
-          <e p="UserContext.cs" t="Include" />
-        </e>
+        <e p="Data" t="Include" />
         <e p="Mongo" t="Include">
           <e p="IRestaurantRepository.cs" t="Include" />
           <e p="RestaurantRepository.cs" t="Include" />
-        </e>
-        <e p="MySql" t="Include">
-          <e p="RestaurantInfo.cs" t="Include" />
-          <e p="Role.cs" t="Include" />
-          <e p="User.cs" t="Include" />
-          <e p="UserRestaurant.cs" t="Include" />
         </e>
         <e p="Restaurant.cs" t="Include" />
         <e p="Settings.cs" t="Include" />

@@ -32,15 +32,19 @@
         },
         "MongoDB.Bson": {
           "target": "Package",
-          "version": "[2.9.3, )"
+          "version": "[2.10.0, )"
         },
         "MongoDB.Driver": {
           "target": "Package",
-          "version": "[2.9.3, )"
+          "version": "[2.10.0, )"
         },
         "MongoDB.Driver.Core": {
           "target": "Package",
-          "version": "[2.9.3, )"
+          "version": "[2.10.0, )"
+        },
+        "MySql.Data.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[8.0.18, )"
         }
       },
       "imports": [
