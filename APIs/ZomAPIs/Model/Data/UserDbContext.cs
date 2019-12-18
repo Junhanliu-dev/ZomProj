@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Threading;
 using Microsoft.EntityFrameworkCore;
 using ZomAPIs.Model.MySql;
 
@@ -14,6 +15,7 @@ namespace ZomAPIs.Model.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.Entity<UserRestaurant>()
                 .HasKey(k => new {k.UserId, k.ResInfoId});
 
@@ -23,19 +25,20 @@ namespace ZomAPIs.Model.Data
                         .HasConversion(x => x.ToString(),    // to converter
                         x=> (Role)Enum.Parse(typeof(Role),x))); // from converter
             
-            
+            //M-N relationship between User and UserRestaurantInfo
             modelBuilder.Entity<UserRestaurant>()
                 .HasOne(p => p.User)
                 .WithMany(p => p.UserRestaurants)
                 .HasForeignKey(p => p.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<UserRestaurant>()
                 .HasOne(P => P.RestaurantInfo)
                 .WithMany(p => p.UserRestaurants)
-                .HasForeignKey(k => k.ResInfoId);
+                .HasForeignKey(k => k.ResInfoId)
+                .OnDelete(DeleteBehavior.Restrict);
             
-
+            
         }
     }
 }

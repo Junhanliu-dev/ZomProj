@@ -33,3 +33,4 @@
 /Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
 /Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
