@@ -7,7 +7,7 @@ using ZomAPIs.Model.MySql;
 
 namespace ZomAPIs.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class UserController : Controller
     {
         private UserDbContext _userDbContext;
