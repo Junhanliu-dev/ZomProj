@@ -15,6 +15,10 @@
       <e p="Migrations" t="Include">
         <e p="20191218004847_InitialCreate.cs" t="Include" />
         <e p="20191218004847_InitialCreate.Designer.cs" t="Include" />
+        <e p="20191219000854_changeMongodbIdFormat.cs" t="Include" />
+        <e p="20191219000854_changeMongodbIdFormat.Designer.cs" t="Include" />
+        <e p="20191219001547_addConversionToUser.cs" t="Include" />
+        <e p="20191219001547_addConversionToUser.Designer.cs" t="Include" />
         <e p="UserDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Model" t="Include">
