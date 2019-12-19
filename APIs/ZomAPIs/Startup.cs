@@ -1,16 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using ZomAPIs.Model;
 using ZomAPIs.Model.Data;
 
@@ -29,7 +22,10 @@ namespace ZomAPIs
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<UserDbContext>(options => options.UseMySql(@"server=192.168.86.150;userid=root;pwd=Seawave@007;port=3306;database=ZomUser"));
+            
+            services.AddDbContext<UserDbContext>(options => 
+                options.UseMySql(Configuration.GetSection("MysqlConnection:ConnectionString").Value));
+            
             services.Configure<Settings>(options =>
                 {
                     options.ConnectionString

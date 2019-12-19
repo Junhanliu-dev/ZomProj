@@ -19,6 +19,14 @@
         <e p="20191219000854_changeMongodbIdFormat.Designer.cs" t="Include" />
         <e p="20191219001547_addConversionToUser.cs" t="Include" />
         <e p="20191219001547_addConversionToUser.Designer.cs" t="Include" />
+        <e p="20191219010953_updateColumnName.cs" t="Include" />
+        <e p="20191219010953_updateColumnName.Designer.cs" t="Include" />
+        <e p="20191219014221_SeedingTest.cs" t="Include" />
+        <e p="20191219014221_SeedingTest.Designer.cs" t="Include" />
+        <e p="20191219014535_SeedingTest2.cs" t="Include" />
+        <e p="20191219014535_SeedingTest2.Designer.cs" t="Include" />
+        <e p="20191219035045_addRelationship.cs" t="Include" />
+        <e p="20191219035045_addRelationship.Designer.cs" t="Include" />
         <e p="UserDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Model" t="Include">

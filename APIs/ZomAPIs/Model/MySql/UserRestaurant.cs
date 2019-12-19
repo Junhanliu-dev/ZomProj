@@ -8,6 +8,7 @@ namespace ZomAPIs.Model.MySql
         public int UserId { get; set; }
         public virtual User User { get; set; }
         
+        [Column("ResInfoId")]
         public int ResInfoId { get; set; }
         public virtual RestaurantInfo RestaurantInfo { get; set; }
         

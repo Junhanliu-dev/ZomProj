@@ -1,5 +1,3 @@
-
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -14,6 +12,6 @@ namespace ZomAPIs.Model.MySql
         public string RestaurantMongoId { get; set; }
         public long RestaurantHashId { get; set; }
 
-        public ICollection<UserRestaurant> UserRestaurants { get; set; }
+        public IList<UserRestaurant> UserRestaurants { get; set; }
     }
 }
