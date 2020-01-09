@@ -1,9 +1,11 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MongoDB.Bson.Serialization;
 using ZomAPIs.Model;
 using ZomAPIs.Model.Data;
 
@@ -23,6 +25,9 @@ namespace ZomAPIs
         {
             services.AddControllers();
             
+            //AutoMapper configuration
+            services.AddAutoMapper(typeof(Startup));
+
             services.AddDbContext<UserDbContext>(options => 
                 options.UseMySql(Configuration.GetSection("MysqlConnection:ConnectionString").Value));
             
@@ -35,6 +40,7 @@ namespace ZomAPIs
                 }
             );
             services.AddTransient<IRestaurantRepository, RestaurantRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

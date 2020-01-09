@@ -1,19 +1,27 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
 using System.Threading.Tasks;
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.Extensions.Options;
+using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
+using ZomAPIs.Model.DTOs;
 
 namespace ZomAPIs.Model
 {
     public class RestaurantRepository : IRestaurantRepository
     {
         private readonly MongoContext _context = null;
-        
+
         public RestaurantRepository(IOptions<Settings> Settings)
         {
             _context = new MongoContext(Settings);
+            
         }
         
         public async Task<IEnumerable<Restaurant>> GetAllRestaurants()
@@ -33,7 +41,11 @@ namespace ZomAPIs.Model
         {
             try
             {
-                return await _context.Restaurants.Find(res => res.Rating >= rating).ToListAsync();
+                var restaurants =  await _context.Restaurants
+                    .Find(res => res.Rating >= rating)
+                    .ToListAsync();
+                
+                return restaurants;
             }
             catch (Exception e)
             {
@@ -42,17 +54,35 @@ namespace ZomAPIs.Model
             }
         }
 
-        public async Task<Restaurant> GetById(long id)
+        public async Task<Restaurant> GetById(Int64 id)
         {
             try
             {
-                return await _context.Restaurants.Find(res => res.Id == id).FirstOrDefaultAsync();
+                return await _context.Restaurants.Find(res => res.Id == id).FirstAsync();
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
-                throw e;
+                return null;
             }
+        }
+
+        public async Task<IEnumerable<Restaurant>> GetByArea(string area)
+        {
+           //var result = await _context.Restaurants.Find(res => res.Area.Contains(area)).ToListAsync();
+
+           IQueryable<Restaurant> query = _context.Restaurants.AsQueryable();
+
+           var result = await query.Where(res => res.Area.Any(l => l.Equals(area, StringComparison.OrdinalIgnoreCase))).ToListAsync();
+           
+           
+           try
+           {
+                return result;
+           }
+           catch (Exception e)
+           {
+                return null;
+           }
         }
     }
 }

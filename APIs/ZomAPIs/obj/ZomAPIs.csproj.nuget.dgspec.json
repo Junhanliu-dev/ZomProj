@@ -14,7 +14,7 @@
         "outputPath": "/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/junhanliu/.nuget/NuGet/NuGet.Config"
+          "/Users/junhanliu/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -36,6 +36,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"

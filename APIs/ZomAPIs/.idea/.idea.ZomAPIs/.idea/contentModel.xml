@@ -33,6 +33,10 @@
         <e p="Data" t="Include">
           <e p="UserDbContext.cs" t="Include" />
         </e>
+        <e p="DTOs" t="Include">
+          <e p="RestaurantDTO.cs" t="Include" />
+          <e p="RestaurantProfile.cs" t="Include" />
+        </e>
         <e p="Mongo" t="Include">
           <e p="IRestaurantRepository.cs" t="Include" />
           <e p="RestaurantRepository.cs" t="Include" />
@@ -58,6 +62,7 @@
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
+      <e p="RestaurantNull.cs" t="Include" />
       <e p="Startup.cs" t="Include" />
       <e p="ZomAPIs.csproj" t="IncludeRecursive" />
       <e p="ZomAPIs.sln" t="IncludeFlat" />

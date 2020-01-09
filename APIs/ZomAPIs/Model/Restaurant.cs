@@ -19,7 +19,7 @@ namespace ZomAPIs.Model
         [BsonElement("name")]
         public string Name { get; set; }
 
-        [BsonElement("zone")] 
+        [BsonElement("zone")]
         public List<string> Area { get; set; }
         
         [BsonElement("link")] 
