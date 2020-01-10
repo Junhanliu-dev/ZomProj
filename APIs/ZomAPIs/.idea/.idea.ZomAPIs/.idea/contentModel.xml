@@ -62,7 +62,6 @@
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
-      <e p="RestaurantNull.cs" t="Include" />
       <e p="Startup.cs" t="Include" />
       <e p="ZomAPIs.csproj" t="IncludeRecursive" />
       <e p="ZomAPIs.sln" t="IncludeFlat" />

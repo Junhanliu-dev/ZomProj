@@ -16,5 +16,9 @@ namespace ZomAPIs.Model
         Task<Restaurant> GetById(Int64 id);
 
         Task<IEnumerable<Restaurant>> GetByArea(string area);
+
+        Task<IEnumerable<Restaurant>> GetTopNRes(int? num);
+
+        Task<IEnumerable<Restaurant>> GetTopNByRegion(int num, string area);
     }
 }

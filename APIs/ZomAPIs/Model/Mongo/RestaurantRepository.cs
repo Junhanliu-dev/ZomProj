@@ -1,16 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
 using System.Threading.Tasks;
-using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.Extensions.Options;
-using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
-using ZomAPIs.Model.DTOs;
+
+
 
 namespace ZomAPIs.Model
 {
@@ -79,6 +74,45 @@ namespace ZomAPIs.Model
            {
                 return null;
            }
+        }
+
+        public async Task<IEnumerable<Restaurant>> GetTopNRes(int? num)
+        {
+            try
+            {
+                if (num == null)
+                {
+                    return await GetAllRestaurants();
+                }
+
+                return await _context.Restaurants.Find(_ => true)
+                    .SortByDescending(res => res.Rating)
+                    .Limit(num)
+                    .ToListAsync();
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
+
+        public async Task<IEnumerable<Restaurant>> GetTopNByRegion(int num, string area)
+        {
+            try
+            {
+                var result = await _context.Restaurants
+                    .Find(res => res.Area.Any(i => i.ToLower() == area.ToLower()))
+                    .SortByDescending(res => res.Rating)
+                    .Limit(num)
+                    .ToListAsync();
+
+                return result;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return null;
+            }
         }
     }
 }

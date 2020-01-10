@@ -5,6 +5,8 @@ namespace ZomAPIs.Model.DTOs
     public class RestaurantDTO
     {
         public string Name { get; set; }
+
+        public double Rating { get; set; }
         
         public List<string> Area { get; set; }
 

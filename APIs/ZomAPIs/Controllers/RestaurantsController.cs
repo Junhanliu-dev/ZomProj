@@ -25,13 +25,14 @@ namespace ZomAPIs.Controllers
             _mapper = mapper;
         }
         
-        //Get all restaurants
+        //Get all restaurants except num defined
         public async Task<IEnumerable<RestaurantDTO>> Index()
         {
             var result = await _restaurantRepository.GetAllRestaurants();
             
             return _mapper.Map<IEnumerable<Restaurant>, IEnumerable<RestaurantDTO>>(result);
         }
+        
         
         //api/restaurant/byRating?rating= 1.1
         [HttpGet("rating/{rating}")]
@@ -45,7 +46,7 @@ namespace ZomAPIs.Controllers
         [HttpGet("restaurant/{id}")]
         public async Task<ActionResult<RestaurantDTO>> GetById(Int64 id)
         {
-            var result = await _restaurantRepository.GetById(7656439828);
+            var result = await _restaurantRepository.GetById(id);
 
             if (result != null)
             {
@@ -67,6 +68,36 @@ namespace ZomAPIs.Controllers
 
             return NotFound();
         }
-        
+
+        [HttpGet("top/{num}")]
+        public async Task<ActionResult<IEnumerable<RestaurantDTO>>> GetTopN(int? num)
+        {
+            try
+            {
+                var result = await _restaurantRepository.GetTopNRes(num);
+
+                return Ok(_mapper.Map<IEnumerable<Restaurant>, IEnumerable<RestaurantDTO>>(result));;
+            }
+            catch (Exception e)
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("top/{num}/{area}")]
+        public async Task<ActionResult<IEnumerable<RestaurantDTO>>> GetTopNByRegion(int num, string area)
+        {
+            try
+            {
+                var result = await _restaurantRepository.GetTopNByRegion(num, area);
+
+                return Ok(_mapper.Map<IEnumerable<Restaurant>,IEnumerable<RestaurantDTO>>(result));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return NotFound();
+            }
+        }
     }
 }
