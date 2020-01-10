@@ -5,12 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using ZomAPIs.Model;
 using ZomAPIs.Model.DTOs;
 
 namespace ZomAPIs.Controllers
 {
+    [EnableCors("MyPolicy")]
     [Produces("application/json")]
     [Microsoft.AspNetCore.Mvc.Route("[Controller]")]
     public class RestaurantsController : Controller
@@ -43,7 +45,7 @@ namespace ZomAPIs.Controllers
         [HttpGet("restaurant/{id}")]
         public async Task<ActionResult<RestaurantDTO>> GetById(Int64 id)
         {
-            var result = await _restaurantRepository.GetById(id);
+            var result = await _restaurantRepository.GetById(7656439828);
 
             if (result != null)
             {

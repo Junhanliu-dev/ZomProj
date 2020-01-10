@@ -24,9 +24,10 @@ namespace ZomAPIs
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            
             //AutoMapper configuration
             services.AddAutoMapper(typeof(Startup));
+            services.AddCors(o =>
+                o.AddPolicy("MyPolicy", builder => { builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader(); }));
 
             services.AddDbContext<UserDbContext>(options => 
                 options.UseMySql(Configuration.GetSection("MysqlConnection:ConnectionString").Value));
@@ -53,7 +54,7 @@ namespace ZomAPIs
             contexts.Database.EnsureCreated();
             app.UseHttpsRedirection();
             app.UseRouting();
-
+            app.UseCors("MyPolicy");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });

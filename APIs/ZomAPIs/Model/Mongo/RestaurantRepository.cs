@@ -68,13 +68,9 @@ namespace ZomAPIs.Model
 
         public async Task<IEnumerable<Restaurant>> GetByArea(string area)
         {
-           //var result = await _context.Restaurants.Find(res => res.Area.Contains(area)).ToListAsync();
+           //var result = await _context.Restaurants.Find(res => res.Area.Contains(area, StringComparer.CurrentCultureIgnoreCase)).ToListAsync();
 
-           IQueryable<Restaurant> query = _context.Restaurants.AsQueryable();
-
-           var result = await query.Where(res => res.Area.Any(l => l.Equals(area, StringComparison.OrdinalIgnoreCase))).ToListAsync();
-           
-           
+           var result = await _context.Restaurants.Find(res => res.Area.Any(i => i.ToLower() == area.ToLower())).ToListAsync();
            try
            {
                 return result;
