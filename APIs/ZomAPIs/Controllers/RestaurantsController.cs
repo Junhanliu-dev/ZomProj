@@ -12,10 +12,10 @@ using ZomAPIs.Model.DTOs;
 
 namespace ZomAPIs.Controllers
 {
-    [EnableCors("MyPolicy")]
+    [EnableCors("EnableCORS")]
     [Produces("application/json")]
     [Microsoft.AspNetCore.Mvc.Route("[Controller]")]
-    public class RestaurantsController : Controller
+    public class RestaurantsController : ControllerBase
     {
         private readonly IRestaurantRepository _restaurantRepository;
         private readonly IMapper _mapper;

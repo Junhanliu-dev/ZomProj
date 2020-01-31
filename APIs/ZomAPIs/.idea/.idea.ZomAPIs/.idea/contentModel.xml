@@ -12,6 +12,9 @@
         <e p="UserController.cs" t="Include" />
       </e>
       <e p="global.json" t="Include" />
+      <e p="Helpler" t="Include">
+        <e p="AppSetting.cs" t="Include" />
+      </e>
       <e p="Migrations" t="Include">
         <e p="20191218004847_InitialCreate.cs" t="Include" />
         <e p="20191218004847_InitialCreate.Designer.cs" t="Include" />
@@ -31,11 +34,15 @@
       </e>
       <e p="Model" t="Include">
         <e p="Data" t="Include">
+          <e p="Customer.cs" t="Include" />
+          <e p="UserAuthBody.cs" t="Include" />
           <e p="UserDbContext.cs" t="Include" />
         </e>
         <e p="DTOs" t="Include">
+          <e p="ResInfoDTO.cs" t="Include" />
           <e p="RestaurantDTO.cs" t="Include" />
           <e p="RestaurantProfile.cs" t="Include" />
+          <e p="UserRestaurantProfile.cs" t="Include" />
         </e>
         <e p="Mongo" t="Include">
           <e p="IRestaurantRepository.cs" t="Include" />
@@ -61,6 +68,9 @@
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="AuthService.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
       <e p="ZomAPIs.csproj" t="IncludeRecursive" />

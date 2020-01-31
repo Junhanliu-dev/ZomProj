@@ -1,8 +1,10 @@
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Newtonsoft.Json;
 
 namespace ZomAPIs.Model.MySql
 {
+    
+    [JsonObject(IsReference = true)]
     public class UserRestaurant
     {
         public int UserId { get; set; }

@@ -5,8 +5,6 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-
-
 namespace ZomAPIs.Model
 {
     public class RestaurantRepository : IRestaurantRepository
@@ -63,9 +61,7 @@ namespace ZomAPIs.Model
 
         public async Task<IEnumerable<Restaurant>> GetByArea(string area)
         {
-           //var result = await _context.Restaurants.Find(res => res.Area.Contains(area, StringComparer.CurrentCultureIgnoreCase)).ToListAsync();
-
-           var result = await _context.Restaurants.Find(res => res.Area.Any(i => i.ToLower() == area.ToLower())).ToListAsync();
+            var result = await _context.Restaurants.Find(res => res.Area.Any(i => i.ToLower() == area.ToLower())).ToListAsync();
            try
            {
                 return result;
@@ -82,13 +78,14 @@ namespace ZomAPIs.Model
             {
                 if (num == null)
                 {
-                    return await GetAllRestaurants();
+                    return await _context.Restaurants.Find(_ => true)
+                        .SortByDescending(res => res.Rating)
+                        .Limit(num)
+                        .ToListAsync();
                 }
-
-                return await _context.Restaurants.Find(_ => true)
-                    .SortByDescending(res => res.Rating)
-                    .Limit(num)
-                    .ToListAsync();
+                
+                return await GetAllRestaurants();
+                
             }
             catch (Exception e)
             {

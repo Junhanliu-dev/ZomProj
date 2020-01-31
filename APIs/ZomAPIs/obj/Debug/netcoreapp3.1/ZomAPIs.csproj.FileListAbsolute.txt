@@ -36,3 +36,13 @@
 /Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
 /Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/junhanliu/RiderProjects/ZomProj/APIs/ZomAPIs/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll

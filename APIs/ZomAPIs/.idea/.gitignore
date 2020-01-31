@@ -1,3 +1,5 @@
 
 # Default ignored files
 /.idea.ZomAPIs/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/.idea.ZomAPIs/.idea/httpRequests/

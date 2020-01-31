@@ -1,9 +1,11 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Newtonsoft.Json;
 
 namespace ZomAPIs.Model.MySql
 {
+    [JsonObject(IsReference = true)]
     public class User
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
@@ -16,6 +18,7 @@ namespace ZomAPIs.Model.MySql
         [EmailAddress]
         public string Email { get; set; }
         public string ScreenName { get; set; }
-        public IList<UserRestaurant> UserRestaurants { get; set; }
+        
+        public virtual IList<UserRestaurant> UserRestaurants { get; set; }
     }
 }
