@@ -26,7 +26,10 @@ namespace ZomAPIs.Controllers
         private readonly IMapper _mapper;
         private IAuthService _authService;
 
-        public UserController(UserDbContext userDbContext, IRestaurantRepository restaurantRepository, IMapper mapper, IAuthService authService)
+        public UserController(UserDbContext userDbContext, 
+                              IRestaurantRepository restaurantRepository, 
+                              IMapper mapper, 
+                              IAuthService authService)
         {
             _userDbContext = userDbContext;
 
