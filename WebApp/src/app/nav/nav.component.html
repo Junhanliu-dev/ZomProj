@@ -1,20 +1,28 @@
 <div class="container-fluid bg-dark">
   <div class="row">
-    <div class="col-7 p-0">
-      <div class="nav navbar-expand-lg navbar-light bg-dark">
+    <div class="col-md-7 p-0">
+      <nav class="nav navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand text-light" href="#">WhaToEat?</a>
-      </div>
-    </div>
-    <div class="col-5 p-0">
-        <form class="form-inline">
-          <div class="input-group">
-            <input class="form-control" type="text" placeholder="Username" aria-label="Username">
-            <input class="form-control ml-2" type="password" placeholder="Password" aria-label="Password">
-            <button type="button" class="btn btn-info ml-2">Login</button>
-            <span class="text-light ml-3 mt-2">or</span>
-            <button type="button" class="btn btn-info ml-3">Signup</button>
+        <button class="navbar-toggler ml-auto"
+                style="background-color: antiquewhite"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"> Link 1</a>
+            <a class="nav-item nav-link active" href="#"> Link 2</a>
+            <a class="nav-item nav-link active" href="#"> Link 3</a>
           </div>
-        </form>
+        </div>
+      </nav>
+    </div>
+    <div class="col-md-5 p-0">
+        <app-login></app-login>
     </div>
   </div>
 </div>
